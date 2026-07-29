@@ -40,3 +40,8 @@ models:
     gold:
       +materialized: table
       +schema: gold
+
+seeds:
+  dbt_project_tutorial:
+    +schema: bronze
+    
